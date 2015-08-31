@@ -1,0 +1,42 @@
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.head {
+	height: 64px;
+	width: 100%;
+	background-color: #FFFF00;
+	margin: 0;
+}
+
+.image_div{
+	
+	width: 100%;
+	
+}
+
+.image{
+	width: 100%;
+}
+
+#home_title{
+	font: "微软雅黑";
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+
+}
+.unchoose
+{
+	width: 19%;
+	height: 9%;
+}
