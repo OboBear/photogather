@@ -20,8 +20,12 @@ body {
 	background: white;
 	border: 1px solid #ddd;
 	box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.4);
+	position: absolute;
+	z-index: 1;
 }
 .pic1 {
+	left: 300px;
+	top: 200px;
 	transform: rotate(30deg);
 	-ms-transform: rotate(30deg);
 	/* IE 9 */
@@ -42,4 +46,15 @@ body {
 	-moz-transform: rotate(5deg);
 	-webkit-transform: rotate(5deg);
 	-o-transform: rotate(5deg);
+}
+
+.container img:hover{
+	box-shadow: 15px 15px 20px rgba(50,50,50,0.4);
+	transform: rotate(0deg) scale(1.20);
+	-webkit-transform:  rotate(0deg) scale(1.20);
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	
+	z-index: 2;
+	
 }
