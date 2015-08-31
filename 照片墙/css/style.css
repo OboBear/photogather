@@ -1,41 +1,45 @@
-
-*{
+* {
 	margin: 0;
 	padding: 0;
-	
 }
-
-body{
-	
+body {
 	background-color: #eeeeee;
 }
-
-
-.container{
-	
+.container {
 	width: 960px;
 	height: 450px;
 	margin: 60px auto;
 	position: relative;
-	
 }
-
-
-.pic{
+.pic {
 	width: 150px;
+	transform: rotate(30deg);
 }
-
-.container img{
-	
-	padding:10px 10px 15px;
+.container img {
+	padding: 10px 10px 15px;
 	background: white;
 	border: 1px solid #ddd;
-	box-shadow: 2px 2px 3px rgba(50,50,50,0.4);
+	box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.4);
+}
+.pic1 {
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	/* IE 9 */
 	
+	-moz-transform: rotate(30deg);
+	/* Firefox */
 	
+	-webkit-transform: rotate(30deg);
+	/* Safari and Chrome */
+	
+	-o-transform: rotate(30deg);
+	/* Opera */
 }
 
-.pic1{
-	
-	
+
+.pic2{
+	transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
 }
